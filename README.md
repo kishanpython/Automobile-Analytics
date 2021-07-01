@@ -18,7 +18,7 @@ features_names=['Date','Latitude', 'Longitude', 'Altitude', 'RPM',
 
 ```
 
-### Dashboard Link :- <a href="https://vehicle-dash.herokuapp.com/">view</a>
+### Dashboard Link :- <a href="https://vehicle-dash.herokuapp.com/">click here</a>
 
 ![Project Image](https://github.com/kishanpython/Automobile-Tasks/blob/main/Assets/asset_1.png)
 
