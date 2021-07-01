@@ -1,7 +1,26 @@
-# Automobile-Task 
-This is an automobile (vehicle) project contains data gathered from the sensors installed on vehicle.
+# Automobile-Analytics
+This is an automobile analytics project. In this we have analyze the data gathered from the sensors installed on vehicles, using dashboard. The sensors send data in hexadecimal form and we have changes it into decimal form during data pre-processing.Saved the pre-processed data in MySQL database. Then make a dashboard for analyze the the data. Also made a model for demonstration purpose. It contains 40 features which are as follow:- 
 
-![Project Image](http://url/to/img.png)
+```
+features_names=['Date','Latitude', 'Longitude', 'Altitude', 'RPM',
+        'Driver Demand Torque (%)', 'Engine Load (%)', 'Engine Torque Mode', 'TPS (%)',
+        'Percent Load Curret Speed', 'Fuel Rate (L-Hr)', 'Vehicle Speed',
+        'Inj Q Cur (mg-st)', 'Inj Q Tor (mg-st)', 'Boost Pressure (mBar)',
+        'Atmospheric Pressure (mBar)', 'Coolant Temperature (*C)',
+        'Oil Temperature (*C)', 'Boost Temperature (*C)', 'Oil Pressure (mBar)',
+        'Battery Voltage (V)', 'Cam Speed (rpm)', 'Rail Pressure (mBar)',
+        'Rail Pressure set (mBar)', 'MU PWM (%)', 'MU Vol (mm3-s)',
+        'Torque Rat', 'Torque (Nm)', 'TQ Limit Set', 'Main Injection (mg-st)',
+        'Pilot Injection (mg-st)', 'Pos 2 Injector (mg-st)', 'EGR Prop (%)',
+        'EGR Pos D (%)', 'EGR Pos A (%)', 'Clutch Switch', 'Brake Switch',
+        'Engine Grad (rpm)', 'param1', 'param2','col_no'
+]
+
+```
+
+### Dashboard Link :- <a href="https://vehicle-dash.herokuapp.com/">view</a>
+
+![Project Image](https://github.com/kishanpython/Automobile-Tasks/blob/main/Assets/asset_1.png)
 
 This project contains following tasks :- 
 ## Task A:- Pre-processed the data and save it in database with proper schema.
@@ -23,3 +42,7 @@ This project contains following tasks :-
   <li>Independent Variables are :- 'RPM' and 'TPS %' and Dependent Variable is :- 'Inj Q Tor (mg-st)'</li>
   <li>Model Notebook Link :- <a href="https://github.com/kishanpython/Automobile-Tasks/blob/main/Task-3/Task-3%20Data%20Modelling.ipynb">view</a></li>
 </ul>
+
+# Conclusion :- 
+In this project I worked on data cleaning, data saving on dbms, dashboard formation and data modelling parts.
+
